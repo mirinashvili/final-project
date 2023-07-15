@@ -3,8 +3,6 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.scss';
 import { Header } from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
-import Sidebar from './Components/Sidebar/Sidebar';
-
 import { LangContext } from './Components/lang';
 
 
@@ -24,7 +22,6 @@ function App () {
     <div className="App">
       <Router>
         <Header />
-        <Sidebar/>
         <Suspense fallback={<div>Loading...</div>}>
           <Routes>
             <Route path="/"  element={<HomePage translate={translate} />} />
