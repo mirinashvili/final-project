@@ -1,0 +1,146 @@
+@import "../../App.scss";
+section {
+    padding-inline: 130.5px;
+    font-family: $font-family-manrope;
+    background-color: $clr-light-gray;
+    padding: 51px 136px;
+
+    .w-full {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    .p-6 {
+        padding: 30px 0;
+    
+        h1 {
+            color: $clr-light-orange;
+        }
+    
+        
+    
+    }
+
+    .firsInput {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+
+        label {
+            color:$clr-light-orange ;
+        }
+
+        input {
+            padding: 12px 150px 12px 12px;
+            background-color: $clr-light-gray;
+            color: $clr-light-orange ;
+            border-radius: 10px;
+            margin-top: 5px;
+        }
+    }
+
+    .secondInput {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+
+        label {
+            color:$clr-light-orange ;
+        }
+
+        input {
+            padding: 12px 150px 12px 12px;
+            background-color: $clr-light-gray;
+            color: $clr-light-orange ;
+            border-radius: 10px;
+            margin-top: 5px;
+        }
+    }
+
+    .thirdInput {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+
+        label {
+            color:$clr-light-orange ;
+        }
+
+        input {
+            padding: 12px 150px 12px 12px;
+            background-color: $clr-light-gray;
+            color: $clr-light-orange ;
+            border-radius: 10px;
+            margin-top: 5px;
+        }
+    }
+
+    .fourthInput {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+
+        label {
+            color:$clr-light-orange ;
+        }
+
+        input {
+            padding: 12px 150px 12px 12px;
+            background-color: $clr-light-gray;
+            color: $clr-light-orange ;
+            border-radius: 10px;
+            margin-top: 5px;
+        }
+    }
+
+    .fifthInput {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+
+        label {
+            color:$clr-light-orange ;
+        }
+
+        input {
+            padding: 12px 150px 12px 12px;
+            background-color: $clr-light-gray;
+            color: $clr-light-orange ;
+            border-radius: 10px;
+            margin-top: 5px;
+        }
+    }
+   
+    button {
+        padding: 6px 16px;
+        background-color:$clr-light-orange ;
+        color: $clr-white;
+        margin-top: 10px;
+        border-radius: 20px;
+        font-size: 16px;
+
+        &:hover {
+        opacity: 0.8;
+        }
+    }
+    p {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+        
+        
+        .font-medium  {
+
+            color: $clr-light-orange ;
+            text-decoration: underline;
+        }
+    }
+    }
+
+}
+
+@media screen and (max-width: 680px) {
+    section {
+        padding: 25px 36px;
+    }
+    }

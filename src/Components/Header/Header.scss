@@ -1,0 +1,51 @@
+@import "../../App.scss";
+
+.header{
+    background: rgb(249,78,48);
+    background: linear-gradient(180deg, rgba(249,78,48,1) 0%, rgba(255,100,51,1) 100%);
+
+  
+    @media screen and (max-width: 992px){
+        .header-cnt-top{
+            flex-direction: column;
+            .header-cnt-top-l{
+                margin-bottom: 4px;
+            }
+        }
+    }
+
+    .lang {
+        position: relative;
+  
+        .selected {
+          width: 50px;
+          padding: 5px;
+          border-radius: 2px;
+          cursor: pointer;
+        }
+  
+        .dropdown {
+          position: absolute;
+          top: calc(100% + 5px);
+          
+          left: -10px;
+          width: 100%;
+          border-radius: 2px;
+          padding: 5px 0;
+          
+  
+          li {
+            text-align: center;
+            font-size: 12px;
+            padding: 5px;
+            background-color: rgba(128, 128, 128, 0.499);
+            cursor: pointer;
+  
+            &:hover {
+                background-color: $clr-light-orange;
+            }
+          }
+        }
+      }
+
+}
